@@ -6,8 +6,7 @@ This repository contains three Jupyter Notebooks which perform freshwater and so
 ## Requirements
 
 ### Solid ice discharge
-For the solid ice discharge analysis, you will need [ice discharge data](https://doi.org/10.22008/promice/data/ice_discharge/d/v02) [1,2]. We used v??? (published XXXX-XX-XX) and stored at `../IceDischarge_Mankoff`.
-!!! (from git commit 9adfba4) !!!
+For the solid ice discharge analysis, you will need [ice discharge data](https://doi.org/10.22008/promice/data/ice_discharge/d/v02) [1,2]. We used v79 (published 2023-05-05) and stored at `../IceDischarge_Mankoff`.
 
 The solid ice discharge analysis also uses `./glaciers_fjords.txt` (which links our glacier pointIDs to our Fjord IDs) and `./relate_pointID_glacierID.txt` (which relates our glacier pointIDs, Joughin glacierIDs, and Mankoff's gate IDs). If you are adapting this analysis for your own glaciers/fjords you will need to create your own versions of these files.
 
