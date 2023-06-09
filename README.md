@@ -11,7 +11,7 @@ For the solid ice discharge analysis, you will need [ice discharge data](https:/
 The solid ice discharge analysis also uses `./glaciers_fjords.txt` (which links our glacier pointIDs to our Fjord IDs) and `./relate_pointID_glacierID.txt` (which relates our glacier pointIDs, Joughin glacierIDs, and Mankoff's gate IDs). If you are adapting this analysis for your own glaciers/fjords you will need to create your own versions of these files.
 
 ### Freshwater discharge
-For the freshwater discharge analysis, you will need [freshwater discharge data](https://doi.org/10.22008/FK2/XKQVL7) [3,4]. We used v4.2 (published 2022-08-28) and stored at `../freshwater`. Because the NETCDF files are very large (several GB each), if you only wish to reproduce our analysis, we provide a 2015-2019 subset of the data files in our repository at `???dotheyneedtobemoved???`.
+We used the [freshwater discharge data](https://doi.org/10.22008/FK2/XKQVL7) archived by GEUS [3,4]. We used v4.2 (published 2022-08-28) and stored at `../freshwater`. Because the NetCDF files are very large (several GB each), after downloading you may wish to subset them to your time frame of interest (we used 2015-2019), using `./subset_FWdischarge.py`. 
 
 We used Ken Mankoff's [freshwater repository](https://github.com/GEUS-Glaciology-and-Climate/freshwater) [4] (installed from commit `d23db55`) to generate fjord discharge and outlet files. This is also stored at `../freshwater` (because the data archive and the repository are tied together and use the same name, and the structure just works...). This repository is not needed to run our analysis using our provided data, but is required to produce your own data files.
 
