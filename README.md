@@ -53,7 +53,7 @@ This notebook generates figures and spreadsheets of freshwater discharge as a fu
 
 - `solid_ice_discharge.ipynb`  
 **Input:** `../IceDischarge_Mankoff`, `./glaciers_fjords.txt`, `./relate_pointID_glacierID.txt`  
-This notebook generates figures and spreadsheets of solid ice discharge for each glacier and fjord in the study. Glacier observations are interpolated and summed together to estimate fjord-level solid ice discharge. The plots show the discharge time series as well as the mean annual, mean hydrological year, and mean seasonal discharge for each fjord. The spreadsheets contain cumulative and per-fjord statistics about solid ice discharge.  
+This notebook generates figures and spreadsheets of solid ice discharge for each glacier and fjord in the study. Glacier observations are interpolated and summed together to estimate fjord-level solid ice discharge. The plots show the discharge time series as well as the mean annual, mean hydrological year, and mean seasonal discharge for each fjord. The spreadsheets contain daily/monthly, cumulative, and per-fjord statistics about solid ice discharge.  
 
 ## Output
 These notebooks will save figures under `../figures/` and summary data under `../databases/`. If you have all the data and run everything, the final structure will look like:
@@ -80,7 +80,9 @@ These notebooks will save figures under `../figures/` and summary data under `..
   - databases/
     - fjord_FWdischarge_depthbinned_{MAR, RACMO}_combined/
     - fjord_icedischarge_components/
+    - fjord_icedischarge_daily/
     - fjord_icedischarge_monthly/
+    - glacier_icedischarge_daily/
     - fjord_FWdischarge_{cumulative, annualmean, seasonalmean}.csv
     - fjord_FWdischarge_mean_annual_deep_{MAR, RACMO}.csv
     - fjord_icedischarge_interp.csv
