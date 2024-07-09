@@ -77,6 +77,7 @@ These notebooks will save figures under `../figures/` and summary data under `..
     - glacier_icedischarge_observed/
     - allfjords_FWdischarge_depthbinned_{MAR, RACMO}_combined.png
     - allfjords_FWdischarge_depthbinned_{MAR, RACMO}_landvsice.png
+    - fjord_icedischarge_observations.png
   - databases/
     - fjord_FWdischarge_depthbinned_{MAR, RACMO}_combined/
     - fjord_icedischarge_components/
