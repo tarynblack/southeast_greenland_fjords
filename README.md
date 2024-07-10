@@ -1,4 +1,6 @@
 # southeast_greenland_fjords
+[![DOI](https://zenodo.org/badge/540187743.svg)](https://zenodo.org/doi/10.5281/zenodo.12702461)
+
 Code and data for analysis of freshwater discharge and solid ice discharge in fjords in southeast Greenland. These analyses comprise part of the methodology of Moon _et al._ (2024) [1]
 
 This repository contains three Jupyter Notebooks which perform freshwater and solid ice discharge analysis on fjords in southeast Greenland, plus several helper scripts for generating your own data.
